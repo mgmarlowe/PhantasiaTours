@@ -1,13 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri&display=swap");
+
+a,
+a:hover {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
 body {
+  background: linear-gradient(#8a6bb8, #150e20);
+  color: #cdc0e0 !important;
+  font-family: "Amiri", serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+
+.card {
+  border-radius: 20px !important;
+  overflow: hidden;
+  border: 1px solid #150e20 !important;
+}
+
+.card-header {
+  background: #8a6bb8;
+}
+
+.card-body {
+  background: #e0f0e6;
+  color: #9479b9;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h4 {
+  font-style: italic;
+}
+
+#homeJumbo {
+  background-image: url("/src/assets/skyMd.jpg");
+  background-size: cover;
+  /* background: linear-gradient(#8A6BB8, #150E20); */
+  color: #d9c3fa;
+  height: 100%;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#homeName {
+  font-size: 8rem;
+}
+
+.homeTag {
+  font-size: 5rem;
+}
+
+#jumbotron {
+  background: linear-gradient(to top, #8a6bb8, #150e20);
+  background-image: url("/public/images/oldBanner.jpg");
+  overflow: hidden;
+}
+
+.nav-link {
+  color: #b3a3c2 !important;
+}
+
+.navbar {
+  background-color: #150e20;
+}
+
+button.navbar-toggler {
+  background-color: #8a6bb8;
+}
+
+.site-footer {
+  background: linear-gradient(to top, #8a6bb8, #150e20);
+  padding: 20px 0;
 }

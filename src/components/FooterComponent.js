@@ -28,7 +28,7 @@ const Footer = () => {
             </Col>
             <Col className="text-center">
               <h5>Find Us</h5>
-              <a href="https://github.com/mgmarlowe/Phantasia">
+              <a href="https://github.com/mgmarlowe/PhantasiaTours">
                 <GoMarkGithub className="fs-2" />
               </a>
               <a href="https://www.linkedin.com/in/melyssa-marlowe-8798a0211/">
